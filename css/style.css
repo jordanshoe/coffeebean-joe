@@ -509,5 +509,11 @@ p,input,label,span,a{
     font-weight: 700;
     text-transform: capitalize;
 }
+.copyright a{
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+}
+/* @media = for responsive website */
 
 
