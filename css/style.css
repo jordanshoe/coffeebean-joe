@@ -544,5 +544,63 @@ p,input,label,span,a{
     .item2, .item6{
         margin-right: 0;
     }
+    .left, .right{
+        width: 100%;
+        float: none;
+    }
+    .opening, .latest-post,
+    .contact, .location{
+        width: 100%;
+        float: none;
+    }
+    .opening h3{
+        font-size: 35px;
+    }
+    .latest-post h3{
+        font-size: 35px;
+    }
+    .contact h3{
+        font-size: 35px;
+    }
+    .location h3{
+        font-size: 35px;
+    }
+    .opening th{
+        font-size: 25px;
+    }
+    .opening td{
+        font-size: 20px;
+    }
+    .latest-post h4{
+        font-size: 25px;
+    }
+    .latest-post p{
+        font-size: 20px;
+    }
+    .contact p{
+        font-size: 20px;
+    }
+    .location h4{
+        font-size: 20px;
+    }
+  .footer2  .logo, .social, .copyright{
+        float: none;
+        width: 100%;
+    }
+    .footer2 h2{
+        text-align: center;
+    }
+    .footer2 p{
+        text-align: center;
+    }
+    .social{
+        margin-bottom: 5px;
+    }
+    .banner{
+        margin-bottom: -3%;
+    }
+    .div-title h2{
+        padding: 0 5px;
+    }
 }
 
