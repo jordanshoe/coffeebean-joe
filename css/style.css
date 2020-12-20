@@ -51,6 +51,7 @@ p,input,label,span,a{
 }
 .nav a:hover{
     color: #4caf50;
+    text-decoration: underline;
 }
 /* banner area */
 .banner{
