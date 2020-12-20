@@ -515,5 +515,34 @@ p,input,label,span,a{
     bottom: 5px;
 }
 /* @media = for responsive website */
+/* if the screen size is 0-768px, it will apply all these css */
+@media screen and (max-width: 768px){
+    .nav ul{
+        display: none;
+    }
+    .nav h1 a{
+        color: #c7a17a;
+    }
+    .wrapper{
+        min-width: 0;
+    }
+    .ads .ads-box{
+        float: none;
+        width: 100%;
 
+    }
+    .ads-item1{
+        margin-bottom:-50px;
+    }
+    .ads-item3, .ads-item4, .ads-item5{
+        margin-bottom: -50px;
+    }
+    .merch-item{
+        float: left;
+        width: 49.5%;
+    }
+    .item2, .item6{
+        margin-right: 0;
+    }
+}
 
