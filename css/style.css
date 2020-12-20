@@ -333,6 +333,12 @@ p,input,label,span,a{
 .res-form input:focus{
     background-color: #312a26
 }
+.res-form select:focus{
+    background-color: #312a26
+}
+.res-form textarea:focus{
+    background-color: #312a26;
+}
 .res-form .one-line,#am,#pm,#agree{
     display: inline;
     width: auto;
