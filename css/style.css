@@ -416,6 +416,9 @@ p,input,label,span,a{
     margin-bottom: 15px;
     text-transform: uppercase;
 }
+.latest-post h4:hover{
+    text-decoration: underline;
+}
 .latest-post h4{
     color: #ffffff;
     text-transform: uppercase;
@@ -447,6 +450,10 @@ p,input,label,span,a{
 .contact #search-btn{
     background-color: #c7a17a;
 }
+.contact #search-btn:hover{
+    background-color: #4caf50;
+    color: #f2f2f2;
+}
 .location h3{
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -476,12 +483,18 @@ p,input,label,span,a{
     color: #ffffff;
     text-transform: uppercase;
 }
+.logo h2:hover{
+    color: #4caf50;
+}
 .social a{
     color: #ffffff;
     text-decoration: none;
     font-weight: 700;
     text-transform: capitalize;
  
+}
+.social a:hover{
+    text-decoration: underline;
 }
 .social li{
     display: inline;
